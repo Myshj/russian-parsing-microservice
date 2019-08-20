@@ -5,7 +5,7 @@ Simple HTTP wrapper around [pymorphy2](https://github.com/kmike/pymorphy2).
 Sample request: `http://localhost:8080/parse/мышь`
 
 Sample response:
-```
+```json
 {
   "status": "ok",
   "word": "мышь",
